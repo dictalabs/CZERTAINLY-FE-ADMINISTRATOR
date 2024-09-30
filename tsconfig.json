@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "baseUrl": "src",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx"
+    },
+    "include": ["src", "cypress", "cypress.d.ts"],
+    "files": ["src/types/global.d.ts"]
+    //   "./src/components/_pages/action-groups/form/ActionGroupFormValues.tsx"
+}
